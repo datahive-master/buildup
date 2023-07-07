@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>build-up</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      li::marker {
+        color: #ff602e;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex flex-col">
+      <!-- Hero Start -->
+      <section class="bg-gray-50">
+        <div class="w-full max-w-3xl mx-auto lg:hidden flex-col gap-12">
+          <div class="w-full flex flex-col gap-8">
+            <div class="flex flex-start px-5 py-4">
+              <img src="./resources/buildup-logo.svg" width="144px" />
+            </div>
+            <div class="w-full flex flex-col justify-center items-center gap-5">
+              <div class="w-full flex flex-col gap-3">
+                <div class="text-xs font-medium text-center text-gray-400">
+                  함께 성장하는 IT 스타트업 무료 컨설팅 & 협업 커뮤니티
+                </div>
+                <div class="text-2xl font-bold text-center text-gray-800">
+                  빌드업 스타트업 컨설팅 서비스를 <br />
+                  <div class="flex justify-center">
+                    <span class="text-2xl font-bold text-center text-[#FF602E]"
+                      >무료</span
+                    >
+                    로 경험해보세요!
+                  </div>
+                </div>
+              </div>
+              <div class="mb-[69px]">
+                <div class="hidden md:flex">
+                  <img src="./resources/hero-image.png" />
+                </div>
+                <div class="md:hidden">
+                  <img src="./resources/hero-image-m.png" width="374px" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full max-w-8xl mx-auto px-5 lg:px-36 hidden lg:flex flex-col gap-12"
+        >
+          <div class="w-full flex gap-6 h-[568px]">
+            <div class="w-full flex flex-col">
+              <div class="flex flex-start p-[22.5px]">
+                <img src="./resources/buildup-logo.svg" />
+              </div>
+              <div class="flex flex-col gap-6 justify-center">
+                <div class="text-base font-medium text-gray-400">
+                  함께 성장하는 IT 스타트업 무료 컨설팅 & 협업 커뮤니티
+                </div>
+                <div class="text-[32px] font-bold text-gray-800">
+                  빌드업 스타트업 컨설팅 서비스를 <br />
+                  <div class="flex">
+                    <span class="text-[32px] font-bold text-[#FF602E]"
+                      >무료</span
+                    >
+                    로 경험해보세요!
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <img src="./resources/hero-image.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero End -->
+      <!-- Difference Start -->
+      <section class="bg-white">
+        <div
+          class="w-full max-w-3xl mx-auto px-5 lg:px-12 py-24 flex lg:hidden flex-col gap-12"
+        >
+          <div class="text-xl font-bold text-center">
+            기존 컨설팅 업체와 빌드업의 차이점
+          </div>
+          <div class="w-full flex flex-col gap-3">
+            <div class="w-full grid grid-cols-2 gap-3 relative">
+              <div
+                class="bg-gray-100 w-full flex p-5 justify-center items-center text-center flex-1 rounded-3xl"
+              >
+                <div class="text-sm font-normal text-gray-600">
+                  정부지원사업 사업계획서 작성 후 <strong>수수료 청구</strong>
+                </div>
+              </div>
+              <div
+                class="bg-gray-100 w-full flex p-5 justify-center items-center text-center flex-1 rounded-3xl"
+              >
+                <div class="text-sm font-normal text-gray-600">
+                  정부지원금 신청 서류 작성 후
+                  <strong>예금/보험 상품 가입</strong>
+                </div>
+              </div>
+              <div
+                class="bg-gray-100 w-full flex p-5 justify-center items-center text-center flex-1 rounded-3xl"
+              >
+                <div class="text-sm font-normal text-gray-600">
+                  정부 대출(신보/기보) 알선 후 대출 금액에서
+                  <strong>수수료 청구</strong>
+                </div>
+              </div>
+              <div
+                class="bg-gray-100 w-full flex p-5 justify-center items-center text-center flex-1 rounded-3xl"
+              >
+                <div class="text-sm font-normal text-gray-600">
+                  기업부설연구소, 벤처인증 등 인증 서류 작성 후
+                  <strong>예금/보험 상품 가입</strong>
+                </div>
+              </div>
+            </div>
+            <div class="md:hidden lg:hidden">
+              <div
+                class="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 z-10"
+              >
+                <img src="./resources/difference-vs-m.png" width="50px" />
+              </div>
+              <div class="relative">
+                <img src="./resources/difference-free-m.png" />
+              </div>
+            </div>
+            <div class="hidden md:flex lg:hidden">
+              <div
+                class="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 z-10"
+              >
+                <img src="./resources/difference-vs.png" width="50px" />
+              </div>
+              <img src="./resources/difference-free-tablet.png" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full max-w-8xl mx-auto px-5 lg:px-36 py-28 hidden lg:flex flex-col gap-12"
+        >
+          <div class="text-4xl font-bold text-center">
+            기존 컨설팅 업체와 빌드업의 차이점
+          </div>
+          <div class="w-full flex gap-6 relative">
+            <div class="w-full flex flex-col relative gap-6 flex-1">
+              <div
+                class="bg-gray-100 w-full flex justify-center items-center text-center flex-1 rounded-3xl"
+              >
+                <div class="text-2xl font-normal text-gray-600">
+                  정부지원사업 사업계획서 작성 후 <strong>수수료 청구</strong>
+                </div>
+              </div>
+              <div
+                class="bg-gray-100 w-full flex justify-center items-center text-center flex-1 rounded-3xl"
+              >
+                <div class="text-2xl font-normal text-gray-600">
+                  정부지원금 신청 서류 작성 후
+                  <strong>예금/보험 상품 가입</strong>
+                </div>
+              </div>
+              <div
+                class="bg-gray-100 w-full flex justify-center items-center text-center flex-1 rounded-3xl"
+              >
+                <div class="text-2xl font-normal text-gray-600">
+                  정부 대출(신보/기보) 알선 후 <br />
+                  <strong>대출 금액에서 수수료 청구</strong>
+                </div>
+              </div>
+              <div
+                class="bg-gray-100 w-full flex justify-center items-center text-center flex-1 rounded-3xl"
+              >
+                <div class="text-2xl font-normal text-gray-600">
+                  기업부설연구소, 벤처인증 등 인증 서류 작성 후 <br />
+                  <strong>예금/보험 상품 가입</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-1 relative">
+              <img src="./resources/difference-free.png" />
+            </div>
+            <div
+              class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+            >
+              <img src="./resources/difference-vs.png" width="79px" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Difference End -->
+      <!-- Story Start -->
+      <section class="bg-gray-800">
+        <div
+          class="w-full max-w-3xl mx-auto px-5 lg:px-12 py-24 flex lg:hidden flex-col gap-12"
+        >
+          <div
+            class="bg-white w-full px-4 py-4 flex flex-col gap-3 items-center rounded-3xl"
+          >
+            <div class="text-xl text-[#FF602E] font-medium">빌드업 STORY🚀</div>
+            <div class="text-sm text-gray-700 text-center">
+              세번의 창업을 통해 10년 이상 IT 스타트업에 몸담으면서 다양한
+              기업들과 사람들을 만났습니다.
+              <strong>
+                회사의 성장과는 거리가 먼 컨설팅과 회사 경영에 부담이 될 정도의
+                수수료가 발생하는 기존의 서비스를 보며 ‘빌드업’ 을
+                구상했습니다.</strong
+              >
+              고기를 잡아 주고 고기에서 살을 떼가는 것이 아닌 고기 잡는 법을
+              알려주고 더 많은 고기를 함께 잡을 수 있는 서비스를 목표로 하고
+              있습니다. 정부지원사업, R&D, 판로개척, 투자유치 등 스타트업의
+              어려움을 함께 고민하고, 성장하는 방법을 함께 찾고자 합니다.
+            </div>
+            <div class="w-full text-xs text-gray-500 text-right">
+              빌드업 CEO 오지환
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full max-w-8xl mx-auto px-5 lg:px-36 py-28 hidden lg:flex flex-col gap-12"
+        >
+          <div
+            class="bg-white w-full px-40 py-12 flex flex-col gap-3 items-center rounded-3xl"
+          >
+            <div class="text-2xl text-[#FF602E] font-medium">
+              빌드업 STORY🚀
+            </div>
+            <div class="text-xl text-gray-700 text-center">
+              세번의 창업을 통해 10년 이상 IT 스타트업에 몸담으면서 다양한
+              기업들과 사람들을 만났습니다.
+              <strong>
+                회사의 성장과는 거리가 먼 컨설팅과 회사 경영에 부담이 될 정도의
+                수수료가 발생하는 기존의 서비스를 보며 ‘빌드업’ 을
+                구상했습니다.</strong
+              >
+              고기를 잡아 주고 고기에서 살을 떼가는 것이 아닌 고기 잡는 법을
+              알려주고 더 많은 고기를 함께 잡을 수 있는 서비스를 목표로 하고
+              있습니다. 정부지원사업, R&D, 판로개척, 투자유치 등 스타트업의
+              어려움을 함께 고민하고, 성장하는 방법을 함께 찾고자 합니다.
+            </div>
+            <div class="text-lg text-gray-500">빌드업 CEO 오지환</div>
+          </div>
+        </div>
+      </section>
+      <!-- Story End -->
+      <!-- Place Start -->
+      <section class="bg-white">
+        <div
+          class="w-full max-w-3xl mx-auto px-5 lg:px-12 py-24 flex lg:hidden flex-col gap-12"
+        >
+          <div class="w-full flex flex-col gap-3">
+            <div class="text-xl font-bold text-center">빌드업 플레이스</div>
+            <div class="text-xs text-gray-500 text-center">
+              빌드업은 별도의 컨설팅 공간을 제공하여 <br />
+              쾌적한 상담진행이 가능합니다.
+            </div>
+          </div>
+          <div class="w-full flex flex-col gap-5">
+            <div class="w-full h-40 bg-gray-100 rounded-2xl">사진1</div>
+            <div class="w-full h-40 bg-gray-100 rounded-2xl">사진2</div>
+            <div class="w-full h-40 bg-gray-100 rounded-2xl">사진3</div>
+          </div>
+          <div class="w-full flex flex-col gap-3">
+            <div class="text-xl font-bold text-center">오프라인 서비스</div>
+            <div class="text-xs text-gray-500 text-center">
+              빌드업은 줌, 카카오톡, 이메일을 통해 오프라인 컨설팅을 함께 <br />
+              진행하고있습니다. 언제든 편하게 비대면 상담을 문의하세요.
+            </div>
+          </div>
+          <div
+            class="w-full bg-gray-100 rounded-2xl flex justify-center items-center py-16 gap-5"
+          >
+            <img src="./resources/icon-svg/Zoom.svg" width="64px" />
+            <img src="./resources/icon-svg/kakaotalk.svg" width="64px" />
+            <img src="./resources/icon-svg/e-mail.svg" width="64px" />
+          </div>
+        </div>
+        <div
+          class="w-full max-w-8xl mx-auto px-5 lg:px-36 py-28 hidden lg:flex flex-col gap-12"
+        >
+          <div class="w-full flex flex-col gap-6">
+            <div class="text-4xl font-bold text-center">빌드업 플레이스</div>
+            <div class="text-base font-normal text-center text-gray-500">
+              빌드업은 별도의 컨설팅 공간을 제공하여 쾌적한 상담진행이
+              가능합니다.
+            </div>
+          </div>
+          <div class="w-full flex flex-col gap-6">
+            <div class="w-full grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <div class="w-full h-80 rounded-3xl bg-gray-100">사진 1</div>
+              <div class="w-full h-80 rounded-3xl bg-gray-100">사진 2</div>
+              <div class="w-full h-80 rounded-3xl bg-gray-100">사진 3</div>
+            </div>
+            <div class="w-full flex gap-6">
+              <div class="w-full flex flex-col p-6 gap-3 justify-center">
+                <div class="text-xl font-bold text-gray-900">
+                  오프라인 서비스
+                </div>
+                <div class="text-base font-normal text-gray-500">
+                  빌드업은 줌, 카카오톡, 이메일을 통해<br />
+                  오프라인 컨설팅을 함께 진행하고있습니다. <br />
+                  언제든 편하게 비대면 상담을 문의하세요.
+                </div>
+              </div>
+              <div class="w-full flex gap-6 px-30 py-24 justify-center">
+                <img src="./resources/icon-svg/Zoom.svg" />
+                <img src="./resources/icon-svg/kakaotalk.svg" />
+                <img src="./resources/icon-svg/e-mail.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Place End -->
+      <!-- Consulting Start -->
+      <section class="bg-white">
+        <div
+          class="w-full max-w-3xl mx-auto px-5 lg:px-12 py-24 flex lg:hidden flex-col gap-12"
+        >
+          <div class="w-full flex flex-col gap-3">
+            <div class="text-xl font-bold text-center">
+              빌드업 서비스 컨설팅
+            </div>
+            <div class="text-xs text-gray-500 text-center">
+              빌드업은 다양한 분야에서 전문적인 컨설팅으로 <br />
+              비즈니스 성장을 지원합니다.
+            </div>
+          </div>
+          <div class="w-full flex flex-col gap-6">
+            <div class="w-full bg-gray-50 flex flex-col p-8 gap-3 rounded-2xl">
+              <div class="w-12 lg:w-18">
+                <img src="./resources/icon-svg/Marketing.svg" />
+              </div>
+              <div class="text-base font-medium text-gray-900">
+                마케팅 / 경영
+              </div>
+              <div class="text-sm list-disc text-gray-500 gap-1">
+                <li>온라인 키워드 마케팅 / SNS 마케팅</li>
+                <li>세금, 인사, 채용 등 관리</li>
+                <li>특허, 인증, 자격 등 관련 신청</li>
+              </div>
+            </div>
+            <div class="w-full bg-gray-50 flex flex-col p-8 gap-3 rounded-2xl">
+              <div class="w-12 lg:w-18">
+                <img src="./resources/icon-svg/Management.svg" />
+              </div>
+              <div class="text-base font-medium text-gray-900">
+                정부지원 / R&D
+              </div>
+              <div class="text-sm list-disc text-gray-500 gap-1">
+                <li>예비/초기/도약 패키지 지원사업, 창업중심대학 사업 분석</li>
+                <li>
+                  사업화 지원사업, 바우처 지원사업(AI, 데이터, 수출, 비대면)
+                  분석
+                </li>
+                <li>R&D 사업 분석 (디딤돌, 전략 사업 등)</li>
+              </div>
+            </div>
+            <div class="w-full bg-gray-50 flex flex-col p-8 gap-3 rounded-2xl">
+              <div class="w-12 lg:w-18">
+                <img src="./resources/icon-svg/it.svg" />
+              </div>
+              <div class="text-base font-medium text-gray-900">
+                IT / 소프트웨어
+              </div>
+              <div class="text-sm list-disc text-gray-500 gap-1">
+                <li>웹사이트 견적 검토, IT 제품 컨셉 계획</li>
+                <li>AI, 빅데이터, ChatGPT 등 유망 기술 소개 및 적용 분석</li>
+                <li>웹 디자인(홈페이지, 상품상세페이지 등) 분석</li>
+              </div>
+            </div>
+            <div class="w-full bg-gray-50 flex flex-col p-8 gap-3 rounded-2xl">
+              <div class="w-12 lg:w-18">
+                <img src="./resources/icon-svg/Investment.svg" />
+              </div>
+              <div class="text-base font-medium text-gray-900">
+                투자 / 자금조달
+              </div>
+              <div class="text-sm list-disc text-gray-500 gap-1">
+                <li>기술보증기금, 신용보증재단 등 정부보증기관 활용</li>
+                <li>엔젤투자, 벤처캐피탈(VC) 투자 검토</li>
+                <li>IR, Tips 사업 분석 및 진행</li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full max-w-8xl mx-auto px-5 lg:px-36 py-28 hidden lg:flex flex-col gap-12"
+        >
+          <div class="w-full flex flex-col gap-6">
+            <div class="text-4xl font-bold text-center">
+              빌드업 서비스 컨설팅
+            </div>
+            <div class="text-base font-normal text-center text-gray-500">
+              빌드업은 다양한 분야에서 전문적인 컨설팅으로 비즈니스 성장을
+              지원합니다.
+            </div>
+          </div>
+          <div class="w-full flex gap-6">
+            <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-6">
+              <div
+                class="w-full bg-gray-50 flex flex-col p-8 gap-3 rounded-3xl"
+              >
+                <div class="w-12 lg:w-18">
+                  <img src="./resources/icon-svg/Marketing.svg" />
+                </div>
+                <div class="text-xl font-medium text-gray-900">
+                  마케팅 / 경영
+                </div>
+                <div class="text-base list-disc text-gray-500 gap-1">
+                  <li>온라인 키워드 마케팅 / SNS 마케팅</li>
+                  <li>세금, 인사, 채용 등 관리</li>
+                  <li>특허, 인증, 자격 등 관련 신청</li>
+                </div>
+              </div>
+              <div
+                class="w-full bg-gray-50 flex flex-col p-8 gap-3 rounded-3xl"
+              >
+                <div class="w-12 lg:w-18">
+                  <img src="./resources/icon-svg/Management.svg" />
+                </div>
+                <div class="text-xl font-medium text-gray-900">
+                  정부지원 / R&D
+                </div>
+                <div class="text-base list-disc text-gray-500 gap-1">
+                  <li>
+                    예비/초기/도약 패키지 지원사업, 창업중심대학 사업 분석
+                  </li>
+                  <li>
+                    사업화 지원사업, 바우처 지원사업(AI, 데이터, 수출, 비대면)
+                    분석
+                  </li>
+                  <li>R&D 사업 분석 (디딤돌, 전략 사업 등)</li>
+                </div>
+              </div>
+              <div
+                class="w-full bg-gray-50 flex flex-col p-8 gap-3 rounded-3xl"
+              >
+                <div class="w-12 lg:w-18">
+                  <img src="./resources/icon-svg/It.svg" />
+                </div>
+                <div class="text-xl font-medium text-gray-900">
+                  IT / 소프트웨어
+                </div>
+                <div class="text-base list-disc text-gray-500 gap-1">
+                  <li>웹사이트 견적 검토, IT 제품 컨셉 계획</li>
+                  <li>AI, 빅데이터, ChatGPT 등 유망 기술 소개 및 적용 분석</li>
+                  <li>웹 디자인(홈페이지, 상품상세페이지 등) 분석</li>
+                </div>
+              </div>
+              <div
+                class="w-full bg-gray-50 flex flex-col p-8 gap-3 rounded-3xl"
+              >
+                <div class="w-12 lg:w-18">
+                  <img src="./resources/icon-svg/Investment.svg" />
+                </div>
+                <div class="text-xl font-medium text-gray-900">
+                  투자 / 자금조달
+                </div>
+                <div class="text-base list-disc text-gray-500 gap-1">
+                  <li>기술보증기금, 신용보증재단 등 정부보증기관 활용</li>
+                  <li>엔젤투자, 벤처캐피탈(VC) 투자 검토</li>
+                  <li>IR, Tips 사업 분석 및 진행</li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Consulting End -->
+      <!-- Service Start -->
+      <section class="bg-gray-50">
+        <div
+          class="w-full max-w-3xl mx-auto px-5 lg:px-12 py-24 flex lg:hidden flex-col gap-12"
+        >
+          <div class="w-full flex flex-col gap-3">
+            <div class="text-xl font-bold text-center">
+              창업 경험 시기 맞춤 빌드업 서비스
+            </div>
+            <div class="text-xs text-gray-500 text-center">
+              빌드업은 매년 변화하는 창업의 고민에 대해 <br />
+              맞춤형 솔루션을 제공합니다.
+            </div>
+          </div>
+          <div class="w-full flex flex-col gap-6">
+            <div class="bg-white flex flex-col flex-1 rounded-3xl gap-6 p-6">
+              <div class="text-base font-bold text-gray-900">
+                🥚 &nbsp; 예비 창업자
+              </div>
+              <div class="text-sm font-normal text-gray-500">
+                초기 스타트업이 어려움에 빠지지 않게 철저한 준비와 계획이 필요한
+                시기입니다. 계획부터 사업자등록까지의 어려움을 빌드업이 함께
+                고민해드립니다.
+              </div>
+              <div class="bg-gray-50 flex flex-col p-3 gap-3 rounded-xl">
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-xs font-medium text-gray-900">
+                    비즈니스 아이디어 검토
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-xs font-medium text-gray-900">
+                    사업자 등록
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-xs font-medium text-gray-900">
+                    예비창업 지원제도
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-xs font-medium text-gray-900">
+                    기술 및 고객 확보
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white flex flex-col flex-1 rounded-3xl gap-6 p-6">
+              <div class="text-base font-bold text-gray-900">
+                🐣 &nbsp; 창업 1년 - 3년차
+              </div>
+              <div class="text-sm font-normal text-gray-500">
+                1-3년차 스타트업은 받을 수 있는 지원과 혜택이 가장 많습니다.
+                이를 놓치지 않도록 빌드업이 안정적인 성장을 돕습니다.
+              </div>
+              <div class="bg-gray-50 flex flex-col p-3 gap-3 rounded-xl">
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-xs font-medium text-gray-900">제품 개발</div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-xs font-medium text-gray-900">R&D</div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-xs font-medium text-gray-900">마케팅</div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-xs font-medium text-gray-900">
+                    세무/인사/법무 등
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white flex flex-col flex-1 rounded-3xl gap-6 p-6">
+              <div class="text-base font-bold text-gray-900">
+                🐓 &nbsp; 창업 4년 - 7년차
+              </div>
+              <div class="text-sm font-normal text-gray-500">
+                4-7년차 스타트업은 경험을 살려 사업 고도화 및 새로운 아이템을
+                추진하는 피보팅(Pivoting)의 시기입니다. 제품이 시장에 출시
+                되어야할 시기이며 투자 유치를 통해 폭발적인 성장을 돕습니다.
+              </div>
+              <div class="bg-gray-50 flex flex-col p-3 gap-3 rounded-xl">
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-xs font-medium text-gray-900">
+                    협업 파트너 발굴
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-xs font-medium text-gray-900">
+                    투자유치(IR)
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-xs font-medium text-gray-900">마케팅</div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-xs font-medium text-gray-900">
+                    정부지원사업
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full max-w-8xl mx-auto px-5 lg:px-36 py-28 hidden lg:flex flex-col gap-12"
+        >
+          <div class="w-full flex flex-col gap-6">
+            <div class="text-4xl font-bold text-center">
+              창업 경험 시기 맞춤 빌드업 서비스
+            </div>
+            <div class="text-base font-normal text-center text-gray-500">
+              빌드업은 매년 변화하는 창업의 고민에 대해 맞춤형 솔루션을
+              제공합니다.
+            </div>
+          </div>
+          <div class="w-full flex gap-6">
+            <div class="bg-white flex flex-col flex-1 rounded-3xl gap-6 p-6">
+              <div class="text-2xl font-bold text-gray-900">
+                🥚 &nbsp; 예비 창업자
+              </div>
+              <div class="text-base font-normal text-gray-500">
+                창업을 계획하고 계신가요? 초기단계의 스타트업은 철저한 준비와
+                계획이 필요한 시기입니다. 계획부터 사업자 등록까지, 빌드업이
+                어려움에 빠지지 않도록 함께 고민해드립니다.
+              </div>
+              <div class="bg-gray-50 flex flex-col p-3 gap-3 rounded-xl">
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-base font-medium text-gray-900">
+                    비즈니스 아이디어 검토
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-base font-medium text-gray-900">
+                    사업자 등록
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-base font-medium text-gray-900">
+                    예비창업 지원 제도
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-base font-medium text-gray-900">
+                    기술 및 고객 확보
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white flex flex-col flex-1 rounded-3xl gap-6 p-6">
+              <div class="text-2xl font-bold text-gray-900">
+                🐣 &nbsp; 창업 1년 - 3년차
+              </div>
+              <div class="text-base font-normal text-gray-500">
+                1-3년차 스타트업은 받을 수 있는 지원과 혜택이 가장 많습니다.
+                이를 놓치지 않도록 빌드업은 비즈니스의 초기 단계부터 성공을 위한
+                필수적인 지원과 전략을 제공하여 안정적인 성장을 돕습니다.
+              </div>
+              <div class="bg-gray-50 flex flex-col p-3 gap-3 rounded-xl">
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-base font-medium text-gray-900">
+                    제품 개발
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-base font-medium text-gray-900">R&D</div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-base font-medium text-gray-900">마케팅</div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-base font-medium text-gray-900">
+                    세무 / 인사 / 법무 등
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white flex flex-col flex-1 rounded-3xl gap-6 p-6">
+              <div class="text-2xl font-bold text-gray-900">
+                🐓 &nbsp; 창업 4년 - 7년차
+              </div>
+              <div class="text-base font-normal text-gray-500">
+                4-7년차 스타트업은 경험을 살려 사업 고도화 및 새로운 아이템을
+                추진하는 피보팅(Pivoting)의 시기입니다. 제품이 시장에 출시
+                되어야할 시기이며 투자 유치를 통해 폭발적인 성장을 돕습니다.
+              </div>
+              <div class="bg-gray-50 flex flex-col p-3 gap-3 rounded-xl">
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-base font-medium text-gray-900">
+                    협업 파트너 발굴
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-base font-medium text-gray-900">
+                    투자유치(IR)
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-base font-medium text-gray-900">마케팅</div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./resources/icon-svg/Check.svg" />
+                  <div class="text-base font-medium text-gray-900">
+                    정부지원사업
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Service End -->
+      <!-- Service-map Start -->
+      <section class="bg-white">
+        <div
+          class="w-full max-w-3xl mx-auto px-5 lg:px-12 py-24 flex lg:hidden flex-col gap-12"
+        >
+          <div class="w-full flex flex-col gap-6">
+            <div class="w-full bg-gray-100 rounded-3xl h-80">map</div>
+            <div class="w-full flex flex-col gap-6 justify-center">
+              <div class="w-full flex flex-col gap-3">
+                <div class="text-base font-bold text-gray-900">주소</div>
+                <div class="text sm text-gray-500">
+                  인천 부평구 부평대로 293 부평테크시티 9층
+                </div>
+              </div>
+              <div class="w-full flex flex-col gap-3">
+                <div class="text-base font-bold text-gray-900">안내</div>
+                <div class="text-sm list-disc text-gray-500 gap-1">
+                  <li>인천지하철 1호선 갈산역 4번출구 앞 테크시티 건물</li>
+                  <li>전용 주차장 이용 가능 (최대 3시간)</li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full max-w-8xl mx-auto px-5 lg:px-36 py-28 hidden lg:flex flex-col gap-12"
+        >
+          <div class="w-full flex gap-6">
+            <div class="w-full bg-gray-100 rounded-3xl h-80">map</div>
+            <div class="w-full flex flex-col p-6 gap-3 justify-center">
+              <div class="text-xl font-bold text-gray-900">주소</div>
+              <div class="text-base font-normal text-gray-500">
+                인천 부평구 부평대로 293 부평테크시티 9층
+              </div>
+              <div class="text-xl font-bold text-gray-900">안내</div>
+              <div class="text-base list-disc text-gray-500 gap-1">
+                <li>인천지하철 1호선 갈산역 4번출구 앞 테크시티 건물</li>
+                <li>전용 주차장 이용 가능 (최대 3시간)</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Service-map End -->
+      <!-- Footer Start -->
+      <footer class="bg-gray-900 text-gray-500">
+        <div
+          class="w-full max-w-8xl mx-auto px-5 lg:px-36 py-12 flex flex-col gap-2.5"
+        >
+          <img src="./resources/buildup-logo-white.svg" width="181px" />
+          <div class="text-xs font-normal text-white">
+            (주)데이터하이브<br />
+            대표 : 오지환 <br />
+            주소 : 인천광역시 부평구 부평대로 293 부평테크시티 913호<br />
+            Email : hive@datahive.co.kr <br />
+            Ⓒ 2023 스마트공방 만드는 사람들. All right reserved.
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
+    </div>
+  </body>
+</html>
